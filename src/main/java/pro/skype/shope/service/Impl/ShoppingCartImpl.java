@@ -2,7 +2,8 @@ package pro.skype.shope.service.Impl;
 
 import org.springframework.stereotype.Component;
 import org.springframework.web.context.annotation.SessionScope;
-import pro.skype.shope.service.SnoppingCart;
+import pro.skype.shope.service.ShoppingCart;
+import pro.skype.shope.service.ShoppingCart;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -11,7 +12,7 @@ import java.util.Set;
 
 @Component
 @SessionScope
-public class ShoppingCartImpl implements SnoppingCart {
+public class ShoppingCartImpl implements ShoppingCart {
     private final Set<Integer> goods = new HashSet();
 
     @Override
